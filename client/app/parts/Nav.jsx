@@ -8,7 +8,7 @@ export default function NavigationMenuDemo() {
     setOpen(!open);
   }
   return (
-    <nav className="px-20 gradient-bg text-white border-gray-200 ">
+    <nav className="px-8 md:px-20 gradient-bg text-white border-gray-200 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -41,7 +41,7 @@ export default function NavigationMenuDemo() {
           </svg>
         </button>
         <div
-          className={` w-full md:block md:w-auto ${open && "hidden"}`}
+          className={` w-full md:block md:w-auto ${!open && "hidden"}`}
           id="navbar-default"
         >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
