@@ -9,7 +9,7 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 const MarqueePart = () => {
   return (
-    <div className="bg-white p-8 md:p-20 min-h-screen min-w-full">
+    <div className="my-16 md:my-0 bg-white p-8 md:p-20 md:min-h-screen min-w-full">
       <p className="font-bold text-5xl text-center mb-28 underline unerline text-sky-900">
         Trusted By
       </p>
