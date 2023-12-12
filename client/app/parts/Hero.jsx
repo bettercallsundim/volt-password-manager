@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
-    <div className="gradient-bg min-h-screen text-white flex items-center px-8 md:px-20 justify-between overflow-hidden">
+    <div className="gradient-bg min-h-screen text-white flex items-center px-6 md:px-20 justify-between overflow-hidden">
       <div className=" font-semibold text-2xl  md:text-4xl leading-[4rem] md:leading-[5rem] text-center md:text-left">
         <p>
           {" "}
