@@ -14,7 +14,7 @@ const Hero3 = memo(() => {
           />
         </div>
         <div className="two md:w-[70%]">
-          <p className="md:pl-10 text-white text-lg md:text-xl">
+          <p className="md:pl-10 text-white text-base md:text-xl">
             It all starts with Customer Identity - from enhancing the customer
             experience with seamless logins to simplifying Multi-Factor
             Authentication (MFA) to a mere click. Your login system must strike

@@ -2,7 +2,7 @@ import { memo } from "react";
 
 const Testimonials = memo(() => {
   return (
-    <div className="gradient-bg p-8 md:p-20">
+    <div className="gradient-bg p-4 md:p-20">
       <section className="text-white">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:px-6"></div>
         <div className="mx-auto max-w-screen-sm">

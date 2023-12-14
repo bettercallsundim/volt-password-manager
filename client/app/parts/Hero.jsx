@@ -6,9 +6,9 @@ const Hero = () => {
       <div className=" font-semibold text-2xl  md:text-4xl leading-[4rem] md:leading-[5rem] text-center md:text-left">
         <p>
           {" "}
-          Secure access for <span className="gradient-text ">you</span>
+          Secure your <span className="gradient-text ">Keys</span>
           <br />
-          But not <span className="gradient-text">identity thieves</span>
+          In unsecured <span className="gradient-text">World</span>
         </p>
         <p className="text-base font-normal w-[80%] mx-auto md:mx-0 md:w-[70%] mt-4 text-center md:text-left">
           Keep yourself, your loved ones, or your worldwide team safe using
