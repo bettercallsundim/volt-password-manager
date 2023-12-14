@@ -2,8 +2,8 @@
 import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
-    <div className="gradient-bg min-h-screen text-white flex items-center px-4 md:px-20 justify-between overflow-hidden">
-      <div className=" font-semibold text-2xl  md:text-4xl leading-[4rem] md:leading-[5rem] text-center md:text-left">
+    <div className="gradient-bg py-24 md:py-24 md:min-h-screen text-white flex items-center px-4 md:px-20 justify-between overflow-hidden">
+      <div className=" font-semibold text-2xl  md:text-4xl leading-[3.5rem] md:leading-[5rem] text-center md:text-left">
         <p>
           {" "}
           Secure your <span className="gradient-text ">Keys</span>
